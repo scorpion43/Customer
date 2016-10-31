@@ -51,8 +51,8 @@ public class CustomerController{
 //        return mav;
 //    }
 
-//    @RequestMapping()
-//    public String customer(){
-//        return "form";
-//    }
+    @RequestMapping("/form")
+    public String customer(){
+        return "form";
+    }
 }
